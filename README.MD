@@ -1,6 +1,6 @@
 ## 导航栏
 
-[梦泽收录系统](https://mengze2.top/shoulu.html)
+[梦泽收录系统](https://mengzemc.github.io)
 ## 主要内容
 
 # 欢迎来到梦泽收录系统官网
