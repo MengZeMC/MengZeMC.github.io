@@ -1,4 +1,4 @@
-## 导航栏
+3## 导航栏
 
 [梦泽收录系统](https://mengze2.top/shoulu.html)
 ## 主要内容
@@ -36,8 +36,8 @@ define('DB_PASS', 'your_database_password'); // 数据库密码
 
 如果您有任何疑问或合作意向，请通过以下方式联系我们：
 
-- Email: MengZe2@mengze2.top ![Email](https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta2/css/all.min.css)
-- 微信: MengZeMC_Minecraft ![微信](https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta2/css/all.min.css)
-- QQ: 2317113278 ![QQ](https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta2/css/all.min.css)
+- Email: MengZe2@mengze2.top
+- 微信: MengZeMC_Minecraft
+- QQ: 2317113278
 
 [下载](https://mengze2.top/file/shoulu.zip)
