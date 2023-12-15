@@ -1,4 +1,4 @@
-3## 导航栏
+## 导航栏
 
 [梦泽收录系统](https://mengze2.top/shoulu.html)
 ## 主要内容
