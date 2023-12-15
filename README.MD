@@ -15,6 +15,18 @@
 3. 在数据库中创建一个新的数据库，并将`create_table.sql`文件导入该数据库中。
 4. 修改`config.php`文件以配置您的数据库连接信息。
 ```PHP
+<?php
+
+// 默认账号和密码
+define('DEFAULT_USERNAME', '账号');
+define('DEFAULT_PASSWORD', '密码');
+define('DB_HOST', 'your_database_host'); // 例如：localhost
+define('DB_NAME', 'your_database_name'); // 数据库名称
+define('DB_USER', 'your_database_username'); // 数据库用户名
+define('DB_PASS', 'your_database_password'); // 数据库密码
+
+?>
+```
 
 5. 在浏览器中打开网站地址，即可使用。
 6. 后台地址为：`域名/cnm.php`。
