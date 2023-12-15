@@ -17,7 +17,7 @@
 ```PHP
 <?php
 
-// 默认账号和密码
+// 默认的账号和密码
 define('DEFAULT_USERNAME', '账号');
 define('DEFAULT_PASSWORD', '密码');
 define('DB_HOST', 'your_database_host'); // 例如：localhost
