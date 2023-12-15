@@ -24,7 +24,7 @@ if (isset($_SESSION['website_title'])) {
     <!-- 引入Bootstrap的CSS -->
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <!-- 引入FontAwesome的CSS -->
-    <link rel="stylesheet" href="FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             background-color: #f1f1f1;
