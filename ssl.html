@@ -1,68 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free SSL Application</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SSL和CA的答疑解惑</title>
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-8CQZq9s7vUzI+GxJcOAzp2Wu7KuR4o7aO5wQzBj7Fm8eLgGdDletW8WVdK1ItvEv" crossorigin="anonymous">
+  <!-- FontAwesome 6.0.0bata CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" integrity="sha384-ZHklKJr6z3f8B4d0QhZCejDXb4N/Hgm4fP0B7RvYRNUBBPvMf9Uy3K35rJr9x+e8" crossorigin="anonymous">
+
 </head>
 <body>
 
-<div class="container">
-    <h1>Free SSL Application</h1>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SSL和CA的答疑解惑</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">关于SSL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">关于CA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">常见问题</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <form id="sslForm">
-        <div class="mb-3">
-            <label for="domainInput" class="form-label">Domain Name</label>
-            <input type="text" class="form-control" id="domainInput" placeholder="Enter your domain name">
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-dark text-light text-center">
+    <div class="container">
+      <h1 class="display-4">SSL和CA的答疑解惑</h1>
+      <p class="lead">让你更好地了解与保护您的网站和用户</p>
+      <hr class="my-4">
+      <p>本网站提供专业的SSL和CA解决方案，为您的网站提供最好的安全保障。</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">了解更多</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container my-5">
+
+    <h2 class="text-center mb-5">为什么需要SSL?</h2>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="https://via.placeholder.com/500x300.png?text=Image+Placeholder" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">保护用户信息</h5>
+            <p class="card-text">SSL证书可以加密用户的敏感信息，如密码、信用卡号等，防止信息被窃取。</p>
+          </div>
         </div>
-        <div class="mb-3">
-            <label for="emailInput" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="Enter your email address">
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="https://via.placeholder.com/500x300.png?text=Image+Placeholder" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">提高网站信任度</h5>
+            <p class="card-text">SSL证书可以验证网站的身份，确保用户正在访问合法的网站，提高用户对网站的信任度。</p>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Apply</button>
-    </form>
-</div>
+      </div>
+    </div>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <h2 class="text-center my-5">什么是CA?</h2>
 
-<script>
-    $(document).ready(function() {
-        // SSL Form submission
-        $('#sslForm').submit(function(e) {
-            e.preventDefault();
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="https://via.placeholder.com/500x300.png?text=Image+Placeholder" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CA是什么？</h5>
+            <p class="card-text">CA（Certificate Authority）是一种数字证书颁发机构，负责颁发数字证书，验证网站的身份。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="https://via.placeholder.com/500x300.png?text=Image+Placeholder" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">为什么需要CA？</h5>
+            <p class="card-text">CA可以验证网站的身份，确保用户正在访问合法的网站，提高用户对网站的信任度。</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            var domain = $('#domainInput').val();
-            var email = $('#emailInput').val();
+    <h2 class="text-center my-5">常见问题</h2>
 
-            // Make an API call to request SSL certificate
-            $.ajax({
-                url: 'https://api.osfipin.com/letsencrypt/api',
-                method: 'POST',
-                data: {
-                    domain: domain,
-                    email: email,
-                    apiKey: '8f674785854e86c3f2e9f4ba417d2ff1',
-                    username: '2370925529@qq.com'
-                },
-                success: function(response) {
-                    console.log(response);
+    <div class="accordion" id="accordionExample">
 
-                    // Process the response as needed
-                },
-                error: function(xhr, status, error) {
-                    console.error(error);
-                }
-            });
-        });
-    });
-</script>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            什么是SSL证书？
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            SSL证书是一种数字证书，用于加密和保护用户敏感信息，确保数据传输安全。
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            什么是CA证书？
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            CA证书是由数字证书颁发机构颁发的数字证书，用于验证网站的身份和提高用户对网站的信任度。
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            如何申请SSL证书？
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            可以通过数字证书颁发机构（如Symantec、Comodo等）申请SSL证书，需要提供相关材料和支付一定的费用。
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <p>版权所有 &copy;2023 SSL和CA的答疑解惑</p>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-anXO0Qql4H/6PzWkL0S2fGeNrym/PsXwK5krnD0hwrN2bKZqG/XwE9e8JiZaG/Kv" crossorigin="anonymous"></script>
 
 </body>
 </html>
