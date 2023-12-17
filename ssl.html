@@ -4,37 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>SSL和CA介绍</title>
+  <!-- 引入Bootstrap 5 CSS文件 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <!-- 引入Font Awesome 5 CSS文件 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* 自定义样式 */
+    .jumbotron {
+      background-color: #f8f9fa;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="mt-5">SSL和CA介绍</h1>
-    <p class="mt-4">SSL（Secure Sockets Layer）是一种安全协议，用于在网络上提供加密和认证服务。它通过使用数字证书来确保通信的安全性。</p>
-    <p>CA（Certificate Authority）是证书颁发机构，负责颁发和管理数字证书。CA会验证申请者的身份，并签发包含公钥和其他信息的数字证书。</p>
-    
-    <h2 class="mt-5">数字证书简介</h2>
-    <p class="mt-4">数字证书是一种电子文件，用于验证通信方的身份和加密数据。它包含了公钥、所有者的信息以及由CA签名的数字签名。</p>
-    <p>数字证书通过加密算法确保了通信的机密性、完整性和身份认证。当客户端与服务器进行通信时，客户端可以使用服务器的公钥来加密数据，而服务器则使用自己的私钥解密数据。</p>
-    
-    <h2 class="mt-5">使用SSL和数字证书的好处</h2>
-    <ul class="mt-4">
-      <li><i class="fas fa-check"></i> 数据加密：SSL使用公钥加密算法，保护通信过程中的数据安全。</li>
-      <li><i class="fas fa-check"></i> 身份认证：数字证书通过CA的签名验证了通信方的身份。</li>
-      <li><i class="fas fa-check"></i> 数据完整性：SSL使用消息摘要算法，确保数据在传输过程中没有被篡改。</li>
-    </ul>
+  <div class="container py-5">
+    <div class="jumbotron">
+      <h1 class="display-4">SSL和CA介绍</h1>
+      <p class="lead">SSL（Secure Sockets Layer）是一种安全协议，用于在网络上提供加密和认证服务。它通过使用数字证书来确保通信的安全性。</p>
+      <p>CA（Certificate Authority）是证书颁发机构，负责颁发和管理数字证书。CA会验证申请者的身份，并签发包含公钥和其他信息的数字证书。</p>
+    </div>
 
-    <h2 class="mt-5">Cersgin DV SSL</h2>
-    <p class="mt-4">Cersgin是一个提供免费DV SSL证书的服务提供商。DV（Domain Validation）证书是一种基本的SSL证书，用于验证域名的所有权。</p>
-    <p>你可以点击下面的按钮申请免费的Cersgin DV SSL证书：</p>
-    <a href="https://cersgin.com/" class="btn btn-primary" target="_blank">
-      申请免费Cersgin DV SSL
-    </a>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">数字证书简介</h2>
+            <p class="card-text">数字证书是一种电子文件，用于验证通信方的身份和加密数据。它包含了公钥、所有者的信息以及由CA签名的数字签名。</p>
+            <p class="card-text">数字证书通过加密算法确保了通信的机密性、完整性和身份认证。当客户端与服务器进行通信时，客户端可以使用服务器的公钥来加密数据，而服务器则使用自己的私钥解密数据。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/500x250.png?text=Digital+Certificate" alt="Digital Certificate" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">使用SSL和数字证书的好处</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i> 数据加密：SSL使用公钥加密算法，保护通信过程中的数据安全。</li>
+              <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i> 身份认证：数字证书通过CA的签名验证了通信方的身份。</li>
+              <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i> 数据完整性：SSL使用消息摘要算法，确保数据在传输过程中没有被篡改。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/500x250.png?text=SSL+and+CA" alt="SSL and CA" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Cersign DV SSL</h2>
+            <p class="card-text">Cersgin是一个提供免费DV SSL证书的服务提供商。DV（Domain Validation）证书是一种基本的SSL证书，用于验证域名的所有权。</p>
+            <p class="card-text">你可以点击下面的按钮申请免费的Cersign DV SSL证书：</p>
+            <a href="https://cersign.com/" class="btn btn-primary" target="_blank">申请免费Cersign DV SSL</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- 引入Bootstrap 5 JavaScript文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
