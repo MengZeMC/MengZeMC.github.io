@@ -1,6 +1,7 @@
 ## 导航栏
 
-[梦泽收录系统](https://mengzemc.github.io)
+[梦泽收录系统官网](https://mengzemc.github.io)
+
 ## 主要内容
 
 # 欢迎来到梦泽收录系统官网
@@ -11,6 +12,8 @@
 
 1. 通过官网下载本系统源代码或克隆本仓库
 2. 将代码上传到您的Web服务器上面。
+[微软网盘下载][1]
+[谷歌网盘下载][2]
 3. 在数据库中创建一个新的数据库，并将`create_table.sql`文件导入该数据库中。
 4. 修改`config.php`文件以配置您的数据库连接信息。
 ```PHP
@@ -38,4 +41,6 @@ define('DB_PASS', 'your_database_password'); // 数据库密码
 - 微信: MengZeMC_Minecraft
 - QQ: 2317113278
 
-[下载](https://mengze2.top/file/shoulu.zip)
+
+  [1]: https://1drv.ms/u/s!ArZFFCkF7-32gQ2kCtaKvziNiB6L
+  [2]: https://drive.google.com/file/d/1-A5TPmwOnZl7Be0BBA-LPYtzXn8752F7/view?usp=drivesdk
