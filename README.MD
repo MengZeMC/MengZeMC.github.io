@@ -6,7 +6,7 @@
 
 # 欢迎来到梦泽收录系统官网
 
-该网站收录系统源码使用PHP、CSS、SQL、HTML等语言进行开发，完全遵守[署名-非商业性使用-相同方式共享4.0 国际 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)和[GPL3.0协议](https://www.gnu.org/licenses/gpl-3.0.html)。
+该网站收录系统源码使用PHP、CSS、SQL、HTML等语言进行开发，完全遵守Zemeng Open Source Protocol License (ZOSPL) Version 1.0
 
 ## 安装和使用
 
