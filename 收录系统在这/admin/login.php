@@ -2,12 +2,12 @@
 
 session_start();
 
-require_once 'config.php';
+include '../config.php';
 
 // 检查用户是否已登录
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     // 用户已登录，转跳到 admin/index.php 页面
-    header("Location: admin/index.php");
+    header("Location: index.php");
     exit;
 } else {
     // 用户未登录，验证用户名和密码
@@ -19,11 +19,11 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
         if ($username === DEFAULT_USERNAME && $password === DEFAULT_PASSWORD) {
             // 认证成功，设置 session 变量并转跳到 admin/index.php 页面
             $_SESSION['loggedin'] = true;
-            header("Location: admin/index.php");
+            header("Location: ./index.php");
             exit;
         } else {
             // 认证失败，显示错误信息
-            echo "用户名或密码错误";
+            echo "<h1>用户名或密码错误</h1>";
         }
     }
 }
