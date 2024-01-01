@@ -13,13 +13,13 @@
                     <a class="nav-link active" aria-current="page" href="#">首页</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://mengze2.top/">站长博客</a>
+                    <a class="nav-link" href="https://loveblog.top/">站长博客</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://mengze2.top/63.html">友情链接</a>
+                    <a class="nav-link" href="#">友情链接</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://mengze2.top/87.html">留言板</a>
+                    <a class="nav-link" href="#">留言板</a>
                 </li>
             </ul>
         </div>

@@ -1,4 +1,5 @@
 <?php
+require_once('config.php');
 // 引用数据库连接信息常量
 $servername = DB_HOST;
 $username = DB_USER;
