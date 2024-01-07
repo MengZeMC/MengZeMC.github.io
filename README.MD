@@ -26,7 +26,3 @@
 - Email: MengZe2@mengze2.top
 - 微信: MengZeMC_Minecraft
 - QQ: 2317113278
-
-
-  [1]: https://1drv.ms/u/s!ArZFFCkF7-32gQ2kCtaKvziNiB6L
-  [2]: https://drive.google.com/file/d/1-A5TPmwOnZl7Be0BBA-LPYtzXn8752F7/view?usp=drivesdk
